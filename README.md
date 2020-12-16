@@ -2,6 +2,7 @@
 
 [![Serverless][ico-serverless]][link-serverless]
 [![License][ico-license]][link-license]
+[![NPM][ico-npm]][link-npm]
 
 A Serverless plugin that enables you to selectively deploy functions for specific stages.
 
@@ -93,6 +94,8 @@ offline: lambdaA, lambdaC
 Given that there isn't a common subset of functions, you cannot create a `base.yml`. If you create a `prod.yml` with `lambdaA` + `lambdaB`, and `staging.yml` with `lambdaB`, you will then need to maintain 2 separate definitions of `lambdaB` which would be error prone. This restricts you to having mutually exclusive sets of functions defined in different yml files, otherwise we tradeoff maintainability.
 
 [ico-serverless]: http://public.serverless.com/badges/v3.svg
-[ico-license]: https://img.shields.io/github/license/serverless-heaven/serverless-webpack.svg
+[ico-license]: https://img.shields.io/github/license/GovTechSG/serverless-selective-functions.svg
+[ico-npm]: https://img.shields.io/npm/v/@govtechsg/serverless-selective-functions.svg
 [link-serverless]: https://www.serverless.com/
 [link-license]: ./LICENSE
+[link-npm]: https://www.npmjs.com/package/@govtechsg/serverless-selective-functions
