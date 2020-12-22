@@ -8,13 +8,13 @@ A Serverless plugin that enables you to selectively deploy functions for specifi
 
 ## Installation
 
-`npm i serverless-selective-functions --save-dev`
+`npm i @govtechsg/serverless-selective-functions --save-dev`
 
 Add the plugin to your `serverless.yml` file:
 
 ```
 plugins:
-  - serverless-selective-functions
+  - "@govtechsg/serverless-selective-functions"
 ```
 
 ## Usage
