@@ -22,7 +22,7 @@
   "author": "Sebastian Quek",
   "license": "MIT",
   "dependencies": {
-    "serverless": "^2.15.0"
+    "serverless": "^2.43.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",
