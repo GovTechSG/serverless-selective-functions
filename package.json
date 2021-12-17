@@ -1,6 +1,6 @@
 {
   "name": "@govtechsg/serverless-selective-functions",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Serverless plugin to selectively deploy functions per stage",
   "main": "dist/index.js",
   "scripts": {
