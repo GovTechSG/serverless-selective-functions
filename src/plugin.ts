@@ -36,6 +36,7 @@ export default class ServerlessSelectiveFunctions {
     this.serverless = serverless;
     this.commands = {};
     this.hooks = {
+      "before:info:info": this.filterFunctions,
       "before:package:initialize": this.filterFunctions,
       "before:offline:start:init": this.filterFunctions,
     };
